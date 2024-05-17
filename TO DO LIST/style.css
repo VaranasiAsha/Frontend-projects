@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding: 25px;
+    background-color: #0a8fc3;
+    color: #fff;
+}
+
+.title {
+    color: #f85f06;
+    padding: 10px 25px;
+    background-color: #fff;
+    border-radius: 30px;
+    letter-spacing: 2px;
+}
+
+div {
+    margin: 10px;
+}
+
+fieldset {
+    border-color: #fff;
+    border-radius: 10px;
+}
+
+table {
+    margin-top: 20px;
+    border: 2px solid #fff;
+    width: 100%;
+}
+
+.container {
+    font-size: 25px;
+    padding: 20px;
+}
+
+#task {
+    width: 50%;
+    padding: 20px 40px;
+    border-style: hidden;
+    border-radius: 20px;
+}
+
+#date {
+    width: 20%;
+    margin: 10px 0;
+    padding: 15px 40px;
+    border-style: hidden;
+    border-radius: 20px;
+}
+
+#addBtn {
+    width: 25%;
+    margin-top: 15px;
+    padding: 15px 30px;
+    border-style: hidden;
+    border-radius: 20px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+#addBtn:hover {
+    background-color: #0000ff;
+    color: #fff;
+}
+
+#toDoTable {
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+
+tr td {
+    padding: 6px;
+}
+
+.dateCol {
+    width: 20%;
+    padding: 10px;
+}
+
+.taskCol {
+    width: 72%;
+}
+
+.statusCol {
+    width: 12%;
+}
